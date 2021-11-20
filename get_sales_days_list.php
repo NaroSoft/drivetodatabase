@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli("remotemysql.com","rCtGtsSc2X","7tN1qsJpsJ","rCtGtsSc2X");
+include 'conn.php';
 
 $date=$_POST['2021-05-05'];
 
