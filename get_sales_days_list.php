@@ -1,9 +1,9 @@
 <?php
 
-include 'conn.php';
+$date='2021-05-05';
 
 
-        $sql = $conn->query("SELECT * FROM sales");
+        $sql = $conn->query("SELECT * FROM sales WHERE Date='".$date."' ORDER BY Time DESC");
 
                 $res = array();
 
