@@ -2,7 +2,7 @@
 
 include 'conn.php';
 
-$date='2021-05-05';
+$date=$_POST['date'];
 
 
         $sql = $conn->query("SELECT * FROM sales WHERE Date='$date' ORDER BY Time DESC");
